@@ -1,12 +1,25 @@
 {
-  "name": "paystack-withdrawal-api",
-  "version": "1.0.0",
-  "description": "A Vercel serverless function for Paystack withdrawals",
-  "main": "api/withdraw.js",
-  "scripts": {
-    "start": "vercel dev"
-  },
-  "dependencies": {
-    "paystack-api": "^1.0.4"
-  }
+
+  "name": "paystack-withdrawal-api",
+
+  "version": "1.0.0",
+
+  "description": "A Vercel serverless function for Paystack withdrawals",
+
+  "main": "api/withdraw.js",
+
+  "scripts": {
+
+    "start": "vercel dev"
+
+  },
+
+  "dependencies": {
+
+    "paystack-node": "^1.0.0"
+
+  }
+
 }
+
+Is this the package.json?
