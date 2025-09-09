@@ -1,5 +1,5 @@
 // Import the Paystack library
-const paystack = require('paystack-api')('YOUR_PAYSTACK_SECRET_KEY');
+const paystack = require('paystack-node')('YOUR_PAYSTACK_SECRET_KEY');
 
 // This is the main handler for the Vercel serverless function.
 module.exports = async (req, res) => {
